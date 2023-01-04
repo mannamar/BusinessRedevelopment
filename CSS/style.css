@@ -16,3 +16,28 @@ p {
     font-family: 'Inter', sans-serif;
     font-size: 30px;
 }
+
+
+
+
+
+
+/* Jovann Css */
+
+.locationCont{
+    padding: 0%;
+    overflow: none;
+}
+
+.navBg{
+    background-color: #354DBB;
+}
+
+.navbar-collapse{
+    justify-content: end;
+    display: flex;
+}
+
+.storeHoursTxt{
+    margin-left: 25rem;
+}
