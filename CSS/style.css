@@ -9,7 +9,7 @@ h1 {
 h2 {
     font-family: 'Outfit', sans-serif;
     font-size: 48px;
-    font-weight: bold;
+    
 }
 
 p {
@@ -27,6 +27,9 @@ p {
 .locationCont{
     padding: 0%;
     overflow: none;
+    width: 100%;
+    margin: 0;
+    
 }
 
 .navBg{
@@ -39,5 +42,13 @@ p {
 }
 
 .storeHoursTxt{
-    margin-left: 25rem;
+    margin-left: 30rem;
+}
+
+.storeTxtColor{
+    color: #354DBB;
+}
+
+.storeRow{
+    margin-top: 15rem;
 }
