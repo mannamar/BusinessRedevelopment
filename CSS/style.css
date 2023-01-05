@@ -62,11 +62,20 @@ p {
     background-color:#F4F6FB ;
     width: 50rem;
     height: 40rem;
+    margin-left: 13rem;
 }
 .hrTxt{
- margin-left: 5rem;
+  margin-left: 3rem;
+
+}
+
+.hrTxtCol{
+    margin-left: 19rem;
+    margin-top: 4rem;
 }
 
 .dayTxt{
-    margin-left: 20rem;
+    margin-left: 2rem;
+    margin-top: 4rem;
 }
+
