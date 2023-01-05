@@ -32,6 +32,10 @@ p {
     
 }
 
+.navCol{
+    padding-right: 0;
+}
+
 .navBg{
     background-color: #354DBB;
 }
@@ -42,13 +46,27 @@ p {
 }
 
 .storeHoursTxt{
-    margin-left: 30rem;
+
 }
 
 .storeTxtColor{
     color: #354DBB;
+    margin-left: 30rem;
 }
 
 .storeRow{
     margin-top: 15rem;
+}
+
+.bgBox{
+    background-color:#F4F6FB ;
+    width: 50rem;
+    height: 40rem;
+}
+.hrTxt{
+ margin-left: 5rem;
+}
+
+.dayTxt{
+    margin-left: 20rem;
 }
