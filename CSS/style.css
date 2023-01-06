@@ -566,6 +566,7 @@ p {
 
 .questionsBtn{
     margin-left: 3rem;
+    border-radius: 100px;
 }
 
 .footerRow{
@@ -636,7 +637,7 @@ p {
 
 .logoBtn{
     width: 10rem;
-    margin-left: 10px;
+    margin-left: 50px;
 }
 
 /* End of Jovann Css */
