@@ -11,6 +11,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <div class="container-fluid locationCont">
@@ -96,17 +100,17 @@
           <div class="modalBtn">
             <button
               type="button"
-              class="btn btn-primary"
+              class="btn btn-primary questionsBtn"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
               data-bs-whatever="@mdo"
             >
-              Open modal for @mdo
+              Questions?
             </button>
           </div>
 
           <div class="stocktonAdTxt">
-            <p class="stockTxt">sdfds</p>
+            <p class="stockTxt">Stockton,CA 95212</p>
           </div>
 
           <div
@@ -134,8 +138,7 @@
                     <div class="mb-3">
                       <label for="recipient-name" class="col-form-label"
                         >Firstname
-                       </label
-                      > 
+                      </label>
                       <input
                         type="text"
                         class="form-control"
@@ -144,13 +147,23 @@
                       <label for="recipient-name" class="col-form-label">
                         Lastname
                       </label>
-                      <input  type="text"
-                      class="form-control"
-                      id="recipient-name"/>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="recipient-lastname"
+                      />
+                      <label for="recipient-name" class="col-form-label">
+                        Email
+                      </label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="recipient-email"
+                      />
                     </div>
                     <div class="mb-3">
                       <label for="message-text" class="col-form-label"
-                        >Message:</label
+                        >Message</label
                       >
                       <textarea
                         class="form-control"
@@ -174,6 +187,42 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div class="row footerRow">
+        <div class="col-12">
+          <footer>
+            <p class="addressTwo">
+              7720 Lorraine Ave STE 104, Stockton, CA 95210
+            </p>
+          </footer>
+        </div>
+
+        <div class="col-3 phoneNum2">
+          <p>Call us: (209) 951-0227</p>
+        </div>
+        <div class="col-3 hoursTwo">
+          <p>Open: M-F 9AM - 4:30PM</p>
+        </div>
+
+        <div class="iconBox">
+             <a href="">
+            <p class="yelpTxt">
+              yelp
+              <i
+                class="fa fa-yelp yelpIcon"
+                style="font-size: 40px; color: red"
+              ></i></p
+          ></a>
+          <a href="">
+            <i
+              style="font-size: 40px; color: red"
+              class="fa fa-google googleIcon"
+            ></i>
+          </a>
+          
+         
         </div>
       </div>
     </div>

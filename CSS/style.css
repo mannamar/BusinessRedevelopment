@@ -55,7 +55,7 @@ p {
 }
 
 .storeRow{
-    margin-top: 15rem;
+    margin-top: 10rem;
 }
 
 .bgBox{
@@ -120,4 +120,50 @@ p {
 .modalBtn{
     width:18rem;
     float: right;
+}
+
+.questionsBtn{
+    margin-left: 3rem;
+}
+
+.footerRow{
+    margin-top: 20rem;
+    text-align: center;
+    background-color: #354DBB;
+    height: 10rem;
+}
+
+.addressTwo{
+    margin-top: 3rem;
+}
+
+.phoneNum2{
+    
+    margin-left: 30rem;
+}
+
+.hoursTwo{
+    /* margin-left: 20rem; */
+}
+
+.iconCol{
+    width: 25rem;
+}
+
+.yelpIcon{
+    float: right;
+}
+.yelpTxt{
+    width: 8rem;
+    margin: 0;
+    color: white;
+}
+
+.iconBox{
+    width:25rem
+}
+
+.googleIcon{
+    float: left;
+    margin-left: 15rem;
 }
