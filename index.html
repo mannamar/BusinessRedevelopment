@@ -1,14 +1,177 @@
 <!doctype html>
 <html lang="en">
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>The Sign Shop</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
   </head>
+
   <body>
-    <h1>Hello, world!</h1>
+
+    <!-- Hero image -->
+    <div class="home-hero container-fluid">
+        <h1 class="home-hero-title">Cutting Edge Technology</h1>
+        <p class="home-hero-text">At The Sign Shop we use the latest in fabrication technology to bring your designs to life. Whether it's signs, banners, graphics or metal work- if you can dream it we can make it!</p>
+    </div>
+
+    <!-- Services -->
+    <div class="services container-fluid">
+        <div class="row">
+            <h1 class="services-title">Our services</h1>
+        </div>
+        <div class="row services-row">
+            <div class="col-4 services-col">
+                <div class="services-icon-row row">
+                    <div class="col-4">
+                        <img class="services-icon" src="./assets/signsLogo.jpeg" alt="Signs icon">
+                    </div>
+                    <div class="col-8 d-flex justify-content-center align-items-center">
+                        <h2 class="services-subtitle">Signs</h2>
+                    </div>
+                </div>
+                <p class="services-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                <div class="row">
+                    <a class="d-flex justify-content-center" href="./pages/banners.html">
+                        <button type="button" class="services-btn btn btn-primary">Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4 services-col">
+                <div class="services-icon-row row">
+                    <div class="col-4">
+                        <img class="services-icon" src="./assets/bannersLogo.jpeg" alt="Banners icon">
+                    </div>
+                    <div class="col-8 d-flex justify-content-center align-items-center">
+                        <h2 class="services-subtitle">Banners</h2>
+                    </div>
+                </div>
+                <p class="services-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                <div class="row">
+                    <a class="d-flex justify-content-center" href="./pages/banners.html">
+                        <button type="button" class="services-btn btn btn-primary">Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4 services-col">
+                <div class="services-icon-row row">
+                    <div class="col-4">
+                        <img class="services-icon" src="./assets/letteringLogo.jpeg" alt="Lettering icon">
+                    </div>
+                    <div class="col-8 d-flex justify-content-center align-items-center">
+                        <h2 class="services-subtitle">Lettering</h2>
+                    </div>
+                </div>
+                <p class="services-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                <div class="row services-btn-row">
+                    <a class="d-flex justify-content-center" href="./pages/banners.html">
+                        <button type="button" class="services-btn btn btn-primary">Learn More</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+    <div class="testimonials container-fluid">  
+        <div class="testimonials-box container-fluid">
+            <h1 class="testimonials-title">Testimonials</h1>
+            <div class="row testimonials-row">
+                <div class="col-4">
+                    <div class="testimonials-img-cont d-flex justify-content-center">
+                        <img class="testimonials-pic" src="./assets/portrait1.png" alt="Headshot of Corey S.">
+                    </div>
+                    <div class="testimonials-card">
+
+                        <div class="testimonial-stars d-flex justify-content-center">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="testimonials-p">The Sign Shop Company did a FANTASTIC JOB on our company's exterior signage! The work that was done was above and beyond any of my expectations.</p>
+                        <h3 class ="testimonials-name">Corey S.</h3>
+                        <p class="testimonials-site">VIA YELP</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="testimonials-img-cont d-flex justify-content-center">
+                        <img class="testimonials-pic" src="./assets/portrait2.png" alt="Headshot of Corey S.">
+                    </div>
+                    <div class="testimonials-card">
+                        <div class="testimonial-stars d-flex justify-content-center">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="testimonials-p">The Sign Shop Company did a FANTASTIC JOB on our company's exterior signage! The work that was done was above and beyond any of my expectations.</p>
+                        <h3 class ="testimonials-name">Chris R.</h3>
+                        <p class="testimonials-site">VIA GOOGLE</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="testimonials-img-cont d-flex justify-content-center">
+                        <img class="testimonials-pic" src="./assets/portrait3.png" alt="Headshot of Corey S.">
+                    </div>
+                    <div class="testimonials-card">
+
+                        <div class="testimonial-stars d-flex justify-content-center">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="testimonials-p">The Sign Shop Company did a FANTASTIC JOB on our company's exterior signage! The work that was done was above and beyond any of my expectations.</p>
+                        <h3 class ="testimonials-name">Michelle A.</h3>
+                        <p class="testimonials-site">VIA YELP</p>
+                    </div>
+                </div>
+            </div>
+        </div>      
+    </div>
+
+    <!-- Clients -->
+    <div class="clients container-fluid">
+        <h1 class="clients-title">Valued Clients</h1>
+        <div class="row">
+            <div class="clients-col col-12 col-sm-6 col-lg-3">
+                <img class="clients-img" src="./assets/sanJoaquinRTD.jpeg" alt="">
+            </div>
+            <div class="clients-col col-12 col-sm-6 col-lg-3">
+                <img class="clients-img" src="./assets/caltrans.jpeg" alt="">
+            </div>
+            <div class="clients-col col-12 col-sm-6 col-lg-3">
+                <img class="clients-img" src="./assets/BankofStockton.jpeg" alt="">
+            </div>
+            <div class="clients-col col-12 col-sm-6 col-lg-3">
+                <img class="clients-img" src="./assets/Kaiser.jpeg" alt="">
+            </div>
+        </div>
+        <div class="row clients-bottom-row">
+            <div class="clients-col col-12 col-sm-6 col-lg-3">
+                <img class="clients-img" src="./assets/UOP.png" alt="">
+            </div>
+            <div class="clients-col col-12 col-sm-6 col-lg-3">
+                <img class="clients-img" src="./assets/codeStackLogo.jpeg" alt="">
+            </div>
+            <div class="clients-col col-12 col-sm-6 col-lg-3">
+                <img class="clients-img" src="./assets/Wine&Rose.jpeg" alt="">
+            </div>
+            <div class="clients-col jitaro-col col-12 col-sm-6 col-lg-3">
+                <img class="clients-img jitaro-img" src="./assets/Jitaro.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
 </html>
