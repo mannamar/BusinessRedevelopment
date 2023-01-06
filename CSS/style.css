@@ -9,7 +9,7 @@ h1 {
 h2 {
     font-family: 'Outfit', sans-serif;
     font-size: 48px;
-    font-weight: bold;
+    
 }
 
 p {
@@ -455,3 +455,183 @@ p {
         margin-bottom: -10px;
     }
 }
+
+
+
+
+/* Jovann Css */
+
+.locationCont{
+    padding: 0%;
+    overflow: none;
+    margin: 0;
+    
+}
+
+.navCol{
+    padding-right: 0;
+}
+
+.navBg{
+    background-color: #354DBB;
+}
+
+.navbar-collapse{
+    justify-content: end;
+    display: flex;
+}
+
+.storeHoursTxt{
+
+}
+
+.storeTxtColor{
+    color: #354DBB;
+    margin-left: 25rem;
+}
+
+.storeRow{
+    margin-top: 10rem;
+}
+
+.bgBox{
+    background-color:#F4F6FB ;
+    width: 40rem;
+    height: 25rem;
+    margin-left: 15rem;
+}
+.hrTxt{
+  font-size: 23px;
+
+}
+.dayCol{
+    margin-top: 2rem;
+}
+
+.hrTxtCol{
+    margin-left: 19rem;
+    margin-top: 2rem;
+}
+
+.dayTxt{
+    margin-left: 1rem;
+    font-size: 23px;
+}
+
+
+.bigRow2{
+    flex-wrap: nowrap;
+}
+
+.mapThing{
+    justify-content: center;
+    display: flex;
+}
+.mapCol{
+    margin-left: 8rem;
+}
+
+.addressTxt{
+    width: 24rem; 
+    float: left;
+    font-size: 24px;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    color: #354DBB;
+}
+.stockTxt{
+    width:18rem;
+    float: left;
+    font-size: 24px;
+    text-align: center;
+    color: #354DBB;
+}
+
+.stocktonAdTxt{
+    margin-left: 3rem;
+    color: #354DBB;
+}
+.numTxt{
+    width:18rem;
+    float: right;
+    font-size: 24px;
+    margin-top: 2rem;
+    color: #354DBB;
+}
+
+.modalBtn{
+    width:18rem;
+    float: right;
+}
+
+.questionsBtn{
+    margin-left: 3rem;
+}
+
+.footerRow{
+    margin-top: 20rem;
+    text-align: center;
+    background-color: #354DBB;
+    height: 13rem;
+}
+
+.addressTwo{
+    margin-top: 4rem;
+    font-size: 23px;
+    color: white;
+}
+
+.phoneNum2{
+    
+    margin-left: 40rem;
+}
+
+.hoursTwo{
+    /* margin-left: 20rem; */
+}
+
+.iconCol{
+    width: 25rem;
+}
+
+.phoneNum2Txt{
+    font-size: 23px;
+    color: white;
+}
+.hoursTwoTxt{
+    font-size: 23px;
+    color: white;
+}
+
+.yelpTxt{
+    width: 8rem;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    float: left;
+}
+
+.iconBox{
+    width: 25rem;
+    justify-content: end;
+    display: flex;
+    margin-bottom: 5rem;
+    margin-left: 13rem;
+}
+
+.googleIcon{
+    float: left;
+   
+}
+
+.linkColor{
+    color: white;
+    font-size: 15px;
+    margin-top: 2rem;
+}
+.linkBox{
+    margin-right: 3rem; 
+    padding: 0;
+}
+
+/* End of Jovann Css */
