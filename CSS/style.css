@@ -278,186 +278,6 @@ p {
 }
 
 
-/* Lettering Media Queries */
-
-@media (max-width: 768px) {
-    .lett-img-col {
-        padding-bottom: 100px;
-    }
-    .lettering-subtitle {
-        padding-bottom: 100px;
-    }
-    .flip-col {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .show-subtitle{
-        padding-bottom: 100px;
-    }
-    .lett-title {
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-}
-
-@media (max-width: 700px) {
-    .lett-p {
-        font-size: 12px;
-    }
-    .lettering-subtitle {
-        font-size: 20px;
-        padding-bottom: 45px;
-    }
-    .lett-title {
-        font-size: 20px;
-        padding-bottom: 50px;
-    }
-    .lett-img-col {
-        padding-bottom: 50px;
-    }
-    .lett-row {
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    .lett-title {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .show-subtitle {
-        font-size: 16px;
-        padding-bottom: 50px;
-    }
-    .show-img {
-        max-height: 120px;
-        width: auto;
-    }
-    .show-row {
-        padding-bottom: 0;
-    }
-}
-
-/* Homepage Media Queries */
-@media (max-width: 1440px) {
-    .services-row {
-        --bs-gutter-x: 4%;
-    }
-    .testimonials-row {
-        --bs-gutter-x: 4%;
-    }
-    .services,
-    .clients,
-    .testimonials-box {
-        max-width: 90%;
-    }
-}
-
-@media (max-width: 990px) {
-    .test-card-cont {
-        display: flex;
-        justify-content: center;
-    }
-    .services-row {
-        display: flex;
-        justify-content: center;
-    }
-    .services-col {
-        max-width: 65%;
-    }
-    .services-btn {
-        margin-bottom: 130px;
-    }
-    .services-btn-row {
-        padding-bottom: 0;
-    }
-    .home-hero-text {
-        display: none;
-    }
-    .home-hero {
-        height: 400px;
-        background-position: center;
-    }
-    .home-hero-title {
-        margin-left: 50px;
-    }
-}
-
-@media (max-width: 650px) {
-    .home-hero {
-        height: 130px;
-        background-position: right;
-    }
-    .home-hero-title {
-        font-size: 25px;
-        max-width: 200px;
-        padding-top: 30px;
-        margin-left: 20px;
-    }
-    .services-title,
-    .testimonials-title,
-    .clients-title {
-        font-size: 28px;
-    }
-    .services-subtitle {
-        font-size: 28px;
-    }
-    .services-icon {
-        height: 63px;
-        width: auto;
-    }
-    .services-p {
-        font-size: 12px;
-        padding-top: 20px;
-        padding-bottom: 10px;
-    }
-    .services-btn {
-        height: 33px;
-        width: 113px;
-        border-radius: 50px;
-        font-family: 'Inter', sans-serif;
-        font-size: 12px;
-        font-weight: bold;
-        background-color: #3451E4;
-        margin-bottom: 75px;
-    }
-    .testimonials-p {
-        font-size: 11px;
-    }
-    .testimonials-name {
-        font-size: 20px;
-    }
-    .testimonials-site {
-        font-size: 12px;
-    }
-    .testimonials-pic {
-        height: 130px;
-        width: auto;
-        top: 70px;
-    }
-    .testimonial-stars {
-        font-size: 25px;
-        padding-top: 0;
-    }
-    .clients-img {
-        max-width: 75%;
-    }
-    .clients-title {
-        margin-bottom: -20px;
-    }
-    .services-title {
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    .hidden-p {
-        font-size: 10px;
-        padding-top: 30px;
-        padding-left: 13%;
-        padding-right: 13%;
-        margin-bottom: -10px;
-    }
-}
-
-
-
 
 /* Jovann Css */
 
@@ -641,18 +461,8 @@ p {
 }
 
 /* End of Jovann Css */
-/* .container {
-    position: relative;
-} */
-/* .text-block {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    /* background-color: black; */
-    /* color: white; */
-    /* padding-left: 20px; */
-    /* padding-right: 20px; */
 
+/* Start of Andy's Signs and Banners */
 .sign-Img{
     background-image: url("../assets/signHero.jpg");
     max-width: fit-content;
@@ -699,4 +509,184 @@ p {
     background-color: #333A54;
     color: white;
     padding-left: 15%;
+}
+
+/* Media Queries */
+
+/* Lettering Media Queries */
+
+@media (max-width: 768px) {
+    .lett-img-col {
+        padding-bottom: 100px;
+    }
+    .lettering-subtitle {
+        padding-bottom: 100px;
+    }
+    .flip-col {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .show-subtitle{
+        padding-bottom: 100px;
+    }
+    .lett-title {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media (max-width: 700px) {
+    .lett-p {
+        font-size: 12px;
+    }
+    .lettering-subtitle {
+        font-size: 20px;
+        padding-bottom: 45px;
+    }
+    .lett-title {
+        font-size: 20px;
+        padding-bottom: 50px;
+    }
+    .lett-img-col {
+        padding-bottom: 50px;
+    }
+    .lett-row {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .lett-title {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .show-subtitle {
+        font-size: 16px;
+        padding-bottom: 50px;
+    }
+    .show-img {
+        max-height: 120px;
+        width: auto;
+    }
+    .show-row {
+        padding-bottom: 0;
+    }
+}
+
+/* Homepage Media Queries */
+@media (max-width: 1440px) {
+    .services-row {
+        --bs-gutter-x: 4%;
+    }
+    .testimonials-row {
+        --bs-gutter-x: 4%;
+    }
+    .services,
+    .clients,
+    .testimonials-box {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 990px) {
+    .test-card-cont {
+        display: flex;
+        justify-content: center;
+    }
+    .services-row {
+        display: flex;
+        justify-content: center;
+    }
+    .services-col {
+        max-width: 65%;
+    }
+    .services-btn {
+        margin-bottom: 130px;
+    }
+    .services-btn-row {
+        padding-bottom: 0;
+    }
+    .home-hero-text {
+        display: none;
+    }
+    .home-hero {
+        height: 400px;
+        background-position: center;
+    }
+    .home-hero-title {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 650px) {
+    .home-hero {
+        height: 130px;
+        background-position: right;
+    }
+    .home-hero-title {
+        font-size: 25px;
+        max-width: 200px;
+        padding-top: 30px;
+        margin-left: 20px;
+    }
+    .services-title,
+    .testimonials-title,
+    .clients-title {
+        font-size: 28px;
+    }
+    .services-subtitle {
+        font-size: 28px;
+    }
+    .services-icon {
+        height: 63px;
+        width: auto;
+    }
+    .services-p {
+        font-size: 12px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .services-btn {
+        height: 33px;
+        width: 113px;
+        border-radius: 50px;
+        font-family: 'Inter', sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        background-color: #3451E4;
+        margin-bottom: 75px;
+    }
+    .testimonials-p {
+        font-size: 11px;
+    }
+    .testimonials-name {
+        font-size: 20px;
+    }
+    .testimonials-site {
+        font-size: 12px;
+    }
+    .testimonials-pic {
+        height: 130px;
+        width: auto;
+        top: 70px;
+    }
+    .testimonial-stars {
+        font-size: 25px;
+        padding-top: 0;
+    }
+    .clients-img {
+        max-width: 75%;
+    }
+    .clients-title {
+        margin-bottom: -20px;
+    }
+    .services-title {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .hidden-p {
+        font-size: 10px;
+        padding-top: 30px;
+        padding-left: 13%;
+        padding-right: 13%;
+        margin-bottom: -10px;
+    }
 }
