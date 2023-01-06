@@ -629,6 +629,7 @@ p {
     color: white;
     font-size: 15px;
     margin-top: 2rem;
+    font-weight: bold;
 }
 .linkBox{
     margin-right: 3rem; 
