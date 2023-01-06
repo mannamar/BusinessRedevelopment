@@ -641,3 +641,62 @@ p {
 }
 
 /* End of Jovann Css */
+/* .container {
+    position: relative;
+} */
+/* .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    /* background-color: black; */
+    /* color: white; */
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+
+.sign-Img{
+    background-image: url("../assets/signHero.jpg");
+    max-width: fit-content;
+    height: 100%;
+    padding: 0%;
+    overflow: none;
+}
+.person-Sign{
+    color: white;
+    height: 100%;
+    padding-right: 40%;
+}
+.Personalized{
+    padding: 0%;
+    overflow: none;
+}
+
+
+.signsImgs{
+    background-color: #333A54;
+    color: white;
+    padding-left: 15%;
+}
+
+
+.banner-Img{
+    background-image: url("../assets/bannerhero.jpg");
+    max-width: fit-content;
+    height: 100%;
+    padding: 0%;
+    overflow: none;
+}
+.banner-hero-Txt{
+    color: white;
+    height: 100%;
+    padding-right: 40%;
+}
+.bannerTitle{
+
+    display: flex;
+    justify-content: center;
+}
+.bannerImgs{
+    background-color: #333A54;
+    color: white;
+    padding-left: 15%;
+}
