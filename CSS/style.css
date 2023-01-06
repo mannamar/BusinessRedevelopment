@@ -27,7 +27,6 @@ p {
 .locationCont{
     padding: 0%;
     overflow: none;
-    width: 100%;
     margin: 0;
     
 }
@@ -100,21 +99,27 @@ p {
     float: left;
     font-size: 24px;
     margin-left: 3rem;
+    margin-top: 2rem;
+    color: #354DBB;
 }
 .stockTxt{
     width:18rem;
     float: left;
     font-size: 24px;
     text-align: center;
+    color: #354DBB;
 }
 
 .stocktonAdTxt{
     margin-left: 3rem;
+    color: #354DBB;
 }
 .numTxt{
     width:18rem;
     float: right;
     font-size: 24px;
+    margin-top: 2rem;
+    color: #354DBB;
 }
 
 .modalBtn{
@@ -130,16 +135,18 @@ p {
     margin-top: 20rem;
     text-align: center;
     background-color: #354DBB;
-    height: 10rem;
+    height: 13rem;
 }
 
 .addressTwo{
-    margin-top: 3rem;
+    margin-top: 4rem;
+    font-size: 23px;
+    color: white;
 }
 
 .phoneNum2{
     
-    margin-left: 30rem;
+    margin-left: 40rem;
 }
 
 .hoursTwo{
@@ -150,20 +157,44 @@ p {
     width: 25rem;
 }
 
-.yelpIcon{
-    float: right;
+.phoneNum2Txt{
+    font-size: 23px;
+    color: white;
 }
-.yelpTxt{
-    width: 8rem;
-    margin: 0;
+.hoursTwoTxt{
+    font-size: 23px;
     color: white;
 }
 
+.yelpTxt{
+    width: 8rem;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    float: left;
+}
+
 .iconBox{
-    width:25rem
+    width: 25rem;
+    justify-content: end;
+    display: flex;
+    margin-bottom: 5rem;
+    margin-left: 13rem;
 }
 
 .googleIcon{
     float: left;
-    margin-left: 15rem;
+   
 }
+
+.linkColor{
+    color: white;
+    font-size: 15px;
+    margin-top: 2rem;
+}
+.linkBox{
+    margin-right: 3rem; 
+    padding: 0;
+}
+
+/* End of Jovann Css */
