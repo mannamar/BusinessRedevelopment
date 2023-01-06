@@ -194,9 +194,9 @@ p {
 }
 
 .lettering-img {
-    width: 662px;
-    height: 462px;
-
+    /* width: 662px;
+    height: 462px; */
+    width: 100%;
 }
 
 .lettering-cont {
@@ -213,6 +213,12 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.lett-img-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* Showcase */
@@ -268,4 +274,63 @@ p {
 
 .cars-inner-cont {
     max-width: 90%;
+}
+
+
+/* Lettering Media Queries */
+
+@media (max-width: 768px) {
+    .lett-img-col {
+        padding-bottom: 100px;
+    }
+    .lettering-subtitle {
+        padding-bottom: 100px;
+    }
+    .flip-col {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .show-subtitle{
+        padding-bottom: 100px;
+    }
+    .lett-title {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media (max-width: 700px) {
+    .lett-p {
+        font-size: 12px;
+    }
+    .lettering-subtitle {
+        font-size: 20px;
+        padding-bottom: 45px;
+    }
+    .lett-title {
+        font-size: 20px;
+        padding-bottom: 50px;
+    }
+    .lett-img-col {
+        padding-bottom: 50px;
+    }
+    .lett-row {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .lett-title {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .show-subtitle {
+        font-size: 16px;
+        padding-bottom: 50px;
+    }
+    .show-img {
+        max-height: 120px;
+        width: auto;
+    }
+    .show-row {
+        padding-bottom: 0;
+    }
 }
