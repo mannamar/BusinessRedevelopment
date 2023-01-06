@@ -183,3 +183,89 @@ p {
 .clients-bottom-row {
     padding-bottom: 130px;
 }
+
+
+/* Lettering Page */
+/* Window */
+
+.lettering-subtitle {
+    color: #3451E4;
+    text-align: center;
+}
+
+.lettering-img {
+    width: 662px;
+    height: 462px;
+
+}
+
+.lettering-cont {
+    width: 77.2%;
+}
+
+.lett-row {
+    --bs-gutter-x: 170px;
+    padding-top: 121px;
+    padding-bottom: 121px;
+}
+
+.lett-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Showcase */
+.show-cont {
+    background-color: #333A54;
+    min-height: 576px;
+}
+
+.show-inner-cont {
+    max-width: 77%;
+}
+
+.lett-title {
+    color: white;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.show-img {
+    max-width: 100%;
+}
+
+.show-subtitle {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.show-col {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.show-row {
+    --bs-gutter-x: 200px;
+    padding-bottom: 75px;
+}
+
+/* Cars */
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.cars-row {
+    --bs-gutter-x: 50px;
+}
+
+.cars-inner-cont {
+    max-width: 90%;
+}
