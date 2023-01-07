@@ -515,8 +515,45 @@ p {
     padding-left: 15%;
 }
 
-/* Media Queries */
+/* Index page alternate footer */
 
+.altFooter {
+    text-align: center;
+    background-color: #354DBB;
+    height: 108px;
+    color: white;
+}
+
+.altFooter-p {
+    font-size: 15px;
+}
+
+.altFoot-fist-line{
+    padding-top: 25px;
+}
+
+.altFoot-sec-line {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.altFooter-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.altFoot-icons {
+    display: flex;
+    justify-content: right;
+    margin-top: -65px;
+    margin-right: 7%;
+}
+
+/* End of alternate footer */
+
+/* Media Queries */
 /* Lettering Media Queries */
 
 @media (max-width: 768px) {
